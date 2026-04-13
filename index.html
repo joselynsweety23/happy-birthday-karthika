@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karthika</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="bg"></div>
+<div class="particles"></div>
+<div class="glow"></div>
+<div class="vignette"></div>
+
+<audio id="music" loop>
+<source src="music.mp3" type="audio/mp3">
+</audio>
+
+<audio id="heartbeat" loop>
+<source src="heartbeat.mp3" type="audio/mp3">
+</audio>
+
+<div class="screen" id="s1">
+<button class="openBtn" onclick="start()">Open</button>
+</div>
+
+<div class="screen hidden" id="s2">
+
+<img id="sylus" class="character" src="sylus1.png">
+
+<div id="dialogue" class="dialogue">
+You came.
+</div>
+
+<button onclick="nextDialogue()">Continue</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
